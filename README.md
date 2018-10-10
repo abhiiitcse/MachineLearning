@@ -48,7 +48,7 @@ It calls other script and displays implementation of different modules.
 	- Learning rate can be fixed or variable, mostly depends on the kind of data.
 	- learning rate of gradient descent can be set by playing around with it.
 	- Below shows the expected phenomenon occured while training data.
-	- ![Input Data](machine-learning-ex1/img/surfPlot.jpg)
-	  ![Input Data](machine-learning-ex1/img/contourPlot.jpg)
+	![Input Data](machine-learning-ex1/img/surfPlot.jpg)
+	![Input Data](machine-learning-ex1/img/contourPlot.jpg)
 
 
