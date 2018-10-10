@@ -18,10 +18,23 @@ It calls other script and displays implementation of different modules.
 			0   0   0   1   0   
 			0   0   0   0   1   
 		```
-<br/><br/><br/>
+<br/><br/>
 **2. plotData.m**
 	
-	- Plot input data to visualize the structure that might help in modelling the parameters. This scripts read data from file and plot input feature against output value.
+	- Plot input data to visualize the structure that might help in modelling the parameters.
+	  This scripts read data from file and plot input feature against output value.
 
 ![Input Data](machine-learning-ex1/img/inputData.jpg)
+
+<br/><br/>
+**3. computeCost.m**
+	
+	- While performing gradient descent algorithm, visualizing cost function gives better understanding of data convergence.
+	- Linear regression algorithm computes cost by taking square of difference of predicted value and actual value
+		(h(theta) - y)^2
+	- **computeCost.m** script implements calculation of cost function for linear regression.
+
+
+
+
 
