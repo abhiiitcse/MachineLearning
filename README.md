@@ -11,12 +11,12 @@ It calls other script and displays implementation of different modules.
 ```
 
 **1. warmUpExercise.m**
-	- Generates identity matrix of size 5.
-	- 	```	1   0   0   0   0
-			0   1   0   0   0
-			0   0   1   0   0
-			0   0   0   1   0
-			0   0   0   0   1
+	- Generates identity matrix of size 5. <br/>
+	- 	```	1   0   0   0   0<br/>
+			0   1   0   0   0<br/>
+			0   0   1   0   0<br/>
+			0   0   0   1   0<br/>
+			0   0   0   0   1<br/>
 		```
 
 [Link](url) and ![Image](src)
