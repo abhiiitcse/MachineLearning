@@ -6,13 +6,18 @@ This assignment consist of implementation of Linear regression on data.
 
 
 ```Source code
-**ex1.m** file contain the implementation of assignment evaluation script. 
-It calls other script and displays implementation of different modules.
+ex1.m file contain the implementation of assignment evaluation script. 
+It calls other script and displays implementation of different modules.```
 
 ** 1. warmUpExercise.m **
+	- Generates identity matrix of size 5.
+	- ```1   0   0   0   0
+   0   1   0   0   0
+   0   0   1   0   0
+   0   0   0   1   0
+   0   0   0   0   1```
 
 [Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
