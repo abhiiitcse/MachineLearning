@@ -7,7 +7,8 @@ This assignment consist of implementation of Linear regression on data.
 
 ```Source code
 ex1.m file contain the implementation of assignment evaluation script. 
-It calls other script and displays implementation of different modules.```
+It calls other script and displays implementation of different modules.
+```
 
 ** 1. warmUpExercise.m **
 	- Generates identity matrix of size 5.
