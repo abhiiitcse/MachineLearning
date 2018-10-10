@@ -1,14 +1,15 @@
 # Machine Learning Course from Coursera
-This repository consist of assignments of Machine learning course from [Coursera](https://www.coursera.org/learn/machine-learning/).
+This repository consist of assignments of Machine learning course from [Coursera](https://www.coursera.org/learn/machine-learning/). Programming language used for these assignments are implemented in [Octave](https://www.gnu.org/software/octave/). However source codes can be executed on Matlab. Synatx for matlab and Octave are almost same.
 
-### Markdown
+## Programming Assignment - 1
+This assignment consist of implementation of Linear regression on data. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+```Source code
+# ex1.m file contain the implementation of assignment evaluation script. It calls other script and displays implementation of different modules.
 
-# Header 1
+
+### 
 ## Header 2
 ### Header 3
 
