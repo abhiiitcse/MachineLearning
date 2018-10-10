@@ -18,7 +18,7 @@ It calls other script and displays implementation of different modules.
 			0   0   0   1   0   
 			0   0   0   0   1   
 		```
-<br/>
+<br/><br/><br/>
 **2. plotData.m**
 	
 	- Plot input data to visualize the structure that might help in modelling the parameters. This scripts read data from file and plot input feature against output value.
