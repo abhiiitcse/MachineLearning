@@ -18,8 +18,9 @@ It calls other script and displays implementation of different modules.
 			0   0   0   1   0   
 			0   0   0   0   1   
 		```
-**1. plotData.m**
+**2. plotData.m**
+	
 	- Plot input data to visualize the structure that might help in modelling the parameters. This scripts read data from file and plot input feature against output value.
 
-[Link](url) and ![Input Data](machine-learning-ex1/img/inputData.jpg)
+![Input Data](machine-learning-ex1/img/inputData.jpg)
 
