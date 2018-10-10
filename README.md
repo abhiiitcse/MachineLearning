@@ -21,5 +21,5 @@ It calls other script and displays implementation of different modules.
 **1. plotData.m**
 	- Plot input data to visualize the structure that might help in modelling the parameters. This scripts read data from file and plot input feature against output value.
 
-[Link](url) and ![Input Data](img/inputData.jpg)
+[Link](url) and ![Input Data](machine-learning-ex1/img/inputData.jpg)
 
