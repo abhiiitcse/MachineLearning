@@ -6,20 +6,10 @@ This assignment consist of implementation of Linear regression on data.
 
 
 ```Source code
-# ex1.m file contain the implementation of assignment evaluation script. It calls other script and displays implementation of different modules.
+**ex1.m** file contain the implementation of assignment evaluation script. 
+It calls other script and displays implementation of different modules.
 
-
-### 
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+** 1. warmUpExercise.m **
 
 [Link](url) and ![Image](src)
 ```
