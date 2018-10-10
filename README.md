@@ -34,6 +34,13 @@ It calls other script and displays implementation of different modules.
 		(h(theta) - y)^2
 	- **computeCost.m** script implements calculation of cost function for linear regression.
 
+<br/><br/>
+**4. gradientDescent.m**
+	
+	- Gradient descent algorithm tries to minimize the cost function calculated in above steps,
+	  by optimizing the unknown parameters.
+	- This function implemets gradient descent algorithm.
+
 
 
 
