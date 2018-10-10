@@ -42,7 +42,7 @@ It calls other script and displays implementation of different modules.
 	- This function implemets gradient descent algorithm.
 
 <br/><br/>
-**4. Visualization**
+**5. Visualization**
 	
 	- With every iteration of Gradient descent algorithm, cost function decreases with specified learning rate.
 	- Learning rate can be fixed or variable, mostly depends on the kind of data.
@@ -51,4 +51,14 @@ It calls other script and displays implementation of different modules.
 ![Input Data](machine-learning-ex1/img/surfPlot.jpg)
 ![Input Data](machine-learning-ex1/img/contourPlot.jpg)
 
+```Source code
+ex1_multi.m file contain the implementation of assignment evaluation script for multi feature data.
+It calls other script and displays implementation of different modules.
+```
+<br/><br/>
+**1. featureNormalize.m**
+	
+	- For training data with mutiple variable, feature nomalization brings all input feature in some ranges.
+	- Gradient descent to work better for normalized data and convergence becomes faster.
+	- This scripts performs normalization of data using (x-mu)/sigma formula. mu = average, sigma = (max val - min val)
 
