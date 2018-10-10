@@ -41,7 +41,14 @@ It calls other script and displays implementation of different modules.
 	  by optimizing the unknown parameters.
 	- This function implemets gradient descent algorithm.
 
-
-
+<br/><br/>
+**4. Visualization**
+	
+	- With every iteration of Gradient descent algorithm, cost function decreases with specified learning rate.
+	- Learning rate can be fixed or variable, mostly depends on the kind of data.
+	- learning rate of gradient descent can be set by playing around with it.
+	- Below shows the expected phenomenon occured while training data.
+	- ![Input Data](machine-learning-ex1/img/surfPlot.jpg)
+	  ![Input Data](machine-learning-ex1/img/contourPlot.jpg)
 
 
