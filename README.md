@@ -55,10 +55,30 @@ It calls other script and displays implementation of different modules.
 ex1_multi.m file contain the implementation of assignment evaluation script for multi feature data.
 It calls other script and displays implementation of different modules.
 ```
-<br/><br/>
 **1. featureNormalize.m**
 	
 	- For training data with mutiple variable, feature nomalization brings all input feature in some ranges.
 	- Gradient descent to work better for normalized data and convergence becomes faster.
 	- This scripts performs normalization of data using (x-mu)/sigma formula. mu = average, sigma = (max val - min val)
+
+<br/><br/>
+**2. computeCostMulti.m**
+	
+	- Computes cost for multiple features in training set.
+	- Vectorized implementation.
+
+<br/><br/>
+**3. gradientDescentMulti.m**
+	
+	- Vectorized Implemntation of gradient descent algorithm for multiple feature training data.
+
+**4. Visualization**
+	
+	- With every iteration of Gradient descent algorithm, cost function decreases with specified learning rate.
+	- Below shows the expected phenomenon occured while training data with multiple feature.
+![Input Data](machine-learning-ex1/img/gradDestMulti.jpg)
+
+
+
+
 
