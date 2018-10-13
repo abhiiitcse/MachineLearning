@@ -73,6 +73,40 @@ It calls other script and displays implementation of different modules.
 	- Below shows the expected phenomenon occured while training data with multiple feature.
 ![Input Data](machine-learning-ex1/img/gradDestMulti.jpg)
 
+## Programming Assignment - 2
+This assignment consist of implementation of Logistic regression on data. Logistic regression is an algorithm to classify data into two or multiple classes. 
+
+
+```Source code
+ex2.m file contain the implementation of assignment evaluation script. 
+It calls other script and displays implementation of different modules.
+```
+
+**1. plotData.m**
+	
+	- Plot input data to visualize the structure that might help in modelling the parameters.
+	  This scripts read data from file and plot input feature against output value.
+
+![Input Data](machine-learning-ex2/img/dataVisualize.jpg)
+
+**2. sigmoid.m**
+	
+	- Given a input in the form of vector, matrix, scalar .. this scipt computes sigmoid value.
+	- Sigmoid function can ve calculated using the formula sig(z) = 1/1+exp(-z).
+	- Sigmoid value is used to classify data into two classes. As properties of sigmoid function, its value is close to zero for
+	  negative input paramters and close to one for positive input value.
+	- Classification done by rule, if z >=0 , sig(z) >= 0.5, in this case input feature is classified as positive class.
+	- Classification done by rule, if z < 0 , sig(z) < 0.5, in this case input feature is classified as Negative class.
+
+**3. costFunction.m**
+	
+	- Cost function implements the cost calculation based on formula: 
+![Input Data](machine-learning-ex2/img/costfunc.png)
+	- gradient has to be calculated, which is used to minimize cost function and optimize logistic regression paramaters during
+	  gradient descent.
+![Input Data](machine-learning-ex2/img/gradient.png)
+
+
 
 
 
