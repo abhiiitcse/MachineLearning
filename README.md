@@ -106,8 +106,43 @@ It calls other script and displays implementation of different modules.
 	  gradient descent.
 ![Input Data](machine-learning-ex2/img/gradient.png)
 
+**4. plotDecisionBoundary.m**
+	
+	- fminc function is used to train the logistic regression classifier.
+	- It calls cost function and computes cost and gradient.
+	- Optimize theta value to get the better decision boundary.
+	- Below is decision boundary after gradient descent completes computing theta,
+![Input Data](machine-learning-ex2/img/decisionBoundary.jpg)
 
+```Source code
+ex2_reg.m file contain the implementation of assignment evaluation script for multi feature data.
+It calls other script and displays implementation of different modules. It evaluates regularized
+logistic regression algorithm.
+```
+**1. Data Visualization**
+	
+	- Visualize input data.
+![Input Data](machine-learning-ex2/img/dataVisualizeReg.jpg)
 
+**2. Feature mapping**
+	
+	- From the above figure we can see that data is not linearly separable. So the decision boundary doesn't follow a line property.
+	- To create a decision boundary which is not linear, input feature has to be mapped to higher dimesion.
+	- mapFeature.m script takes input and returns higher dimesional data.
 
+**3. costFunctionReg.m**
+	
+	- Taking higher dimensional data and running logistic regression algorithm prone to overfitting.
+	- To Avoid overfitting, regularization term has to be introduced.
+	- By controlling regularization parameters, overfitting problems can be avoided.
+	- Following formula has been implemented to compute cost and gradient.
+![Input Data](machine-learning-ex2/img/costFuncReg.png)
+![Input Data](machine-learning-ex2/img/gradientReg.png)
+
+**4. Decision Boundary Visualization**
+	
+	- After computing theta values from gradient descent, it gives the idea about decision boundary.
+	- Below shows decision boundary
+![Input Data](machine-learning-ex2/img/decisionBoundaryReg.jpg)
 
 
